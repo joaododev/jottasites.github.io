@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JottaSites - Landing pages profissionais com preços acessíveis. Especializado em sites responsivos e seguros.">
+    <meta name="keywords" content="landing page, sites profissionais, desenvolvedor web, preços acessíveis, responsivo, seguro">
+    <title>JottaSites - Landing Pages Profissionais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <span>J</span>
+                    </div>
+                    <span class="logo-text">JottaSites</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <button onclick="scrollToSection('sobre')" class="nav-link">Sobre mim</button>
+                    <button onclick="scrollToSection('servicos')" class="nav-link">Serviços</button>
+                    <button onclick="scrollToSection('contato')" class="nav-link contact-btn">Contato</button>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-btn" class="mobile-menu-btn">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="mobile-menu-content">
+                <button onclick="scrollToSection('sobre')" class="mobile-nav-link">Sobre mim</button>
+                <button onclick="scrollToSection('servicos')" class="mobile-nav-link">Serviços</button>
+                <button onclick="scrollToSection('contato')" class="mobile-nav-link mobile-contact-btn">Contato</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <span>J</span>
+                </div>
+                <h1 class="hero-title">
+                    Landing Pages
+                    <span class="hero-title-accent">Profissionais</span>
+                </h1>
+                <p class="hero-description">
+                    Meu nome é João, desenvolvedor front-end em formação, foco em criação de landing pages, 
+                    com preços acessíveis, suporte personalizado e foco total em segurança e responsividade.
+                </p>
+                <div class="hero-buttons">
+                    <button onclick="scrollToSection('servicos')" class="btn btn-primary">
+                        Ver Serviços
+                        <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                    <button onclick="scrollToSection('contato')" class="btn btn-success">
+                        <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mim Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre mim</h2>
+                    <p class="about-paragraph">
+                        Dev apaixonado por criar experiências digitais excepcionais. 
+                        Estou em constante desenvolvimento e especialização na criação de landing pages 
+                        que realmente convertem.
+                    </p>
+                    <p class="about-paragraph">
+                        Meu foco é entregar sites profissionais com preços acessíveis, sempre priorizando 
+                        a qualidade, segurança e responsividade. Cada projeto recebe atenção personalizada, 
+                        garantindo que suas necessidades sejam atendidas de forma única.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                            <span>Design moderno e profissional</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                            <span>Otimizado para SEO</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                            <span>Carregamento rápido</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                            <span>Formulários funcionais</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                            <span>Integração com redes sociais</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                            <span>Suporte pós-entrega</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-profile">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <span>J</span>
+                        </div>
+                        <h3 class="profile-name">João</h3>
+                        <p class="profile-title">Desenvolvedor Web</p>
+                        <p class="profile-description">
+                            Especialista em landing pages profissionais com foco em conversão e experiência do usuário.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meus Serviços</h2>
+                <p class="section-description">
+                    Ofereço soluções completas para sua presença digital, com foco em qualidade, 
+                    segurança e resultados.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"/>
+                            <polyline points="8,6 2,12 8,18"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Landing Pages Profissionais</h3>
+                    <p class="service-description">
+                        Criação de páginas otimizadas para conversão, com design moderno e funcionalidades avançadas.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Design Responsivo</h3>
+                    <p class="service-description">
+                        Sites que funcionam perfeitamente em todos os dispositivos - desktop, tablet e mobile.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Segurança Garantida</h3>
+                    <p class="service-description">
+                        Código limpo e seguro, com as melhores práticas de desenvolvimento web.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Atendimento Personalizado</h3>
+                    <p class="service-description">
+                        Suporte dedicado e acompanhamento em todas as etapas do projeto.
+                    </p>
+                </div>
+            </div>
+
+            <div class="pricing-cta">
+                <h3 class="pricing-title">Preços Acessíveis e Transparentes</h3>
+                <p class="pricing-description">
+                    Acredito que todo negócio merece uma presença digital profissional. 
+                    Por isso, ofereço preços justos e acessíveis sem comprometer a qualidade.
+                </p>
+                <button onclick="scrollToSection('contato')" class="btn btn-white">
+                    Solicitar Orçamento
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <p class="section-description">
+                    Estou pronto para transformar sua ideia em uma landing page profissional. 
+                    Entre em contato e vamos criar algo incrível juntos!
+                </p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon whatsapp-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">WhatsApp</h3>
+                    <p class="contact-description">Resposta rápida e atendimento personalizado</p>
+                    <a href="https://wa.me/5521965242361" target="_blank" rel="noopener noreferrer" class="btn btn-success">
+                        Chamar no WhatsApp
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon email-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">Email</h3>
+                    <p class="contact-description">Para propostas e orçamentos detalhados</p>
+                    <a href="mailto:joao@jottasites.com.br" class="btn btn-primary">
+                        Enviar Email
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon phone-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">Telefone</h3>
+                    <p class="contact-description">Ligação direta para conversas urgentes</p>
+                    <a href="tel:+5511999999999" class="btn btn-purple">
+                        Ligar Agora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <span>J</span>
+                        </div>
+                        <span class="footer-logo-text">JottaSites</span>
+                    </div>
+                    <p class="footer-description">
+                        Landing pages profissionais com preços acessíveis e atendimento personalizado.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Serviços</h4>
+                    <ul class="footer-list">
+                        <li>Landing Pages</li>
+                        <li>Design Responsivo</li>
+                        <li>Otimização SEO</li>
+                        <li>Suporte Técnico</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-list">
+                        <li>WhatsApp: (21) 96524-2361</li>
+                        <li>Email: joaododev@gmail.com</li>
+                        <li>Atendimento: Seg-Sex 9h às 18h</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 JottaSites. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
